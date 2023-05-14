@@ -20,9 +20,20 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
+  -- smooth scroll
   {
     "karb94/neoscroll.nvim",
     event = "WinScrolled",
     opts = { "keys" },
+  },
+  -- render markdown preview
+  {
+    "iamcco/markdown-preview.nvim",
+    ft = "markdown",
+    build = ":call mkdp#util#install()",
+    cmd = { "MarkdownPreview" },
+    keys = {
+      { "<leader>mp", "<cmd>MarkdownPreview<cr>", desc = "Open Markdown Preview" },
+    },
   },
 }

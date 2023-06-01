@@ -36,4 +36,8 @@ return {
       { "<leader>mp", "<cmd>MarkdownPreview<cr>", desc = "Open Markdown Preview" },
     },
   },
+  {
+    "mfussenegger/nvim-jdtls",
+    event = "User AstroFile",
+  }
 }

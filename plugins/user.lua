@@ -23,7 +23,7 @@ return {
   -- smooth scroll
   {
     "karb94/neoscroll.nvim",
-    event = "WinScrolled",
+    event = "User AstroFile",
     opts = { "keys" },
   },
   -- render markdown preview

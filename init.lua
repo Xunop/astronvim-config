@@ -86,5 +86,8 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    
+    -- Set wrap for markdown files
+    vim.cmd([[autocmd FileType markdown setlocal wrap]])
   end,
 }

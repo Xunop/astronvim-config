@@ -28,6 +28,7 @@ return {
           "stylua",
           "clang-format",
           "rustfmt",
+          "goimports",
         })
       end,
     },

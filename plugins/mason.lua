@@ -14,6 +14,7 @@ return {
           "cssls",
           "html",
           "bashls",
+          "gopls",
         })
       end,
     },
@@ -29,6 +30,7 @@ return {
           "clang-format",
           "rustfmt",
           "goimports",
+          "gopls",
         })
       end,
     },

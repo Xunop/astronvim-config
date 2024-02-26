@@ -93,15 +93,15 @@ return {
       desc = "tabbing",
       pattern = { "*.c", "*.cpp", "*.h", "*.hpp" },
       callback = function()
-        vim.opt.tabstop = 8
-        vim.opt.shiftwidth = 0
+        vim.opt.tabstop=8
+        vim.opt.shiftwidth=0
       end,
     })
     vim.api.nvim_create_autocmd("FileType", {
       desc = "tabbing",
       callback = function()
-        vim.opt.tabstop = 4
-        vim.opt.shiftwidth = 0
+        vim.opt.tabstop=4
+        vim.opt.shiftwidth=0
       end,
     })
   end,
